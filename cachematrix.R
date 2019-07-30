@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Second programming assignment from R Programming course.
+## The functions below implement the capacity of taking matrix inverse and caching its results for future computations
 
-## Write a short comment describing this function
+## The function below will create the special matrix
 
 makeCacheMatrix <- function(x = matrix()) {
 	m <- NULL
@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function will take the invert of a special matrix using previously cached data when available
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
